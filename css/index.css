@@ -27,7 +27,31 @@
     font-size: 36px;
 }
 
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
 .body {
+    background: linear-gradient(270deg, #51f4c3, #73f451, #e6f451, #f451eb, #5152f4);
+    background-size: 1000% 1000%;
+
+    -webkit-animation: AnimationName 240s ease infinite;
+    -moz-animation: AnimationName 240s ease infinite;
+    animation: AnimationName 240s ease infinite;
+
+
     background-color: #51F4C3;
     display: -webkit-box;
     display: -webkit-flex;
