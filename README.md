@@ -1,5 +1,5 @@
 # tomatotimer
-25 minute timer for myself
+25 minute pomodoro timer webpage
 
 # What can it  do?
   - Remind you when stopwatch stopped
