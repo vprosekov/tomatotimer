@@ -1,0 +1,87 @@
+.div-block {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 608px;
+    height: 608px;
+    margin: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-image: url("../img/tomato.png");
+    background-position: 0px 0px;
+    background-size: cover;
+    background-attachment: scroll;
+    font-family: Roboto, sans-serif;
+    font-size: 36px;
+}
+
+.body {
+    background-color: #51F4C3;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    cursor: auto;
+}
+
+.start-btn {
+    width: 150px;
+    border-radius: 5px;
+    background-color: #f4b351;
+    font-family: Roboto, sans-serif;
+    line-height: 8vh;
+    text-align: center;
+    cursor: pointer;
+}
+
+.pause-btn {
+    width: 150px;
+    border-radius: 5px;
+    background-color: #f4b351;
+    font-family: Roboto, sans-serif;
+    line-height: 8vh;
+    text-align: center;
+    cursor: pointer;
+}
+
+.div-block-2 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 54%;
+    margin-top: 15px;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.timetext {
+    margin-top: 110px;
+    font-size: 113px;
+    line-height: 112.5px;
+}
+
+.reset-btn {
+    width: 300px;
+    margin-top: 12px;
+    border-radius: 5px;
+    background-color: #91D737;
+    font-family: Roboto, sans-serif;
+    line-height: 8vh;
+    text-align: center;
+    cursor: pointer;
+}
